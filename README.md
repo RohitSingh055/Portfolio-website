@@ -1,3 +1,3 @@
 # Personal portfolio Website
 
-# Tech used -> React.js & Tailwind CSS
+### Tech used -> React.js & Tailwind CSS
