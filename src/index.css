@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "Heading";
+    src: url(./assets/Fonts/BebasNeue-Regular.ttf);
+    format: truetype;
+}
+
+@font-face {
+    font-family: "Heading1";
+    src: url(./assets/Fonts/Manrope-Medium.ttf);
+    format: truetype
+}
+
+@font-face {
+    font-family: "Body";
+    src: url(./assets/Fonts/Manrope-Light.ttf);
+    format: truetype;
+}
+
+*{
+    background-color: #0A0A0A;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+body::-webkit-scrollbar {
+    display: none;
+}
