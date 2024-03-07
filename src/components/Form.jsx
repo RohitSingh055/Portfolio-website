@@ -19,7 +19,7 @@ const Form = () => {
       <br />
       <textarea rows={5} className="bg-[#1A1A1A] w-full rounded-md mb-3" type="textarea" id="message" name="message" />
 
-      <button className="bg-[#D3E97A] text-black rounded-3xl w-[80px] mt-4 font-[Heading1] p-1">SEND</button>
+      <button className="bg-[#D3E97A] hover:bg-[#b8d529] text-black rounded-3xl w-[80px] mt-4 font-[Heading1] p-1">SEND</button>
     </div>
   );
 };

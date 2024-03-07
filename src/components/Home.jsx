@@ -2,19 +2,19 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="flex justify-between m-12 h-screen ">
-      <div className="ml-20 mt-20 w-[500px] h-[400px]">
+    <div className="flex justify-between my-12 h-screen ">
+      <div className="mt-20 w-[500px] h-[400px]">
         <p className="font-[Heading] text-7xl">
           HI, I AM <br />
           ROHIT SINGH.
         </p>
         <p className="font-[Body] text-sm">
-          A developer passionate about creating user-friendly websites and
-          sometimes Android applications, with a keen interest in machine
+          A Software developer passionate about creating user-friendly websites
+          and sometimes Android applications, with a keen interest in machine
           learning.
         </p>
         <div className="flex mt-11">
-          <button className="flex items-center justify-around w-32 font-body text-xs bg-[#D3E97A] text-black rounded-3xl font-semibold h-9  ps-2">
+          <button className="flex items-center justify-around w-32 font-body text-xs bg-[#D3E97A] hover:bg-[#b8d529] text-black rounded-3xl font-semibold h-9  ps-2">
             CONTACT ME
             <img
               className="w-6 ml-1 rounded-3xl"
