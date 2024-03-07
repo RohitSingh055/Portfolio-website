@@ -2,18 +2,18 @@ import React from "react";
 
 const Cards = (props) => {
   return (
-    <div className="card flex gap-20 justify-center mx-20 mt-24 mb-20">
+    <div className="card flex gap-24 justify-between mt-24 mb-20">
       <div className="image bg-[#1A1A1A] w-[350px] relative h-[300px] rounded-lg flex justify-center items-center">
         <span className="absolute top-0 left-0 m-2 text-xs py-1 px-3 font-[Body] text-center bg-[#0A0A0A] rounded-xl">
           {props.capsule}
         </span>
         <img
-          className="rounded-lg w-[230px] h-[160px]"
+          className="rounded-lg w-[270px] h-[180px]"
           src={props.url}
           alt="Campus placement"
         />
       </div>
-      <div className="about bg-[#0A0A0A] w-[600px] h-[350px]">
+      <div className="about bg-[#0A0A0A] w-[700px] h-[350px]">
         <p className="title font-[Heading1] text-xl font-medium mb-5">
           {props.title}
         </p>
