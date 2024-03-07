@@ -19,7 +19,9 @@ const Certifications = () => {
     <div className="flex justify-between border-t border-[#484848] mb-14">
       <div className="left w-[300px] h-[300px] mt-14 font-[Heading] text-5xl">
         MY CERTIFICATIONS
-        <p className="font-[Body] text-sm">Click to view </p>
+        <p className="font-[Body] text-sm">
+          Click on the certificates to view them.{" "}
+        </p>
       </div>
       <div className="right grid grid-cols-2 gap-10 w-[650px] mt-14">
         <Card_certificate

@@ -62,7 +62,7 @@ const Cards = (props) => {
           </a>
 
           {props.wantLive && (
-            <a href="https://github.com/RohitSingh055/Campus_Placement-Prediction">
+            <a href={props.live}>
               <span className="flex items-center group hover:border-b-2 w-fit cursor-pointer">
                 <span
                   className="text-xs text-[#D3E97A] group-hover:text-[#d6ff0b]

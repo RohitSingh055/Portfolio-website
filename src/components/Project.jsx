@@ -8,7 +8,10 @@ const Project = () => {
       <div className="font-[Body] text-sm">
         <p>
           Here are some of the projects that showcase my passion for <br />
-          software development and Machine Learning.
+          software development and Machine Learning. <br />
+          <span className="font-[Heading1] text-base border-b-2 border-[#d3e97a]">
+            Good Projects will be added soon :)
+          </span>
         </p>
         <Cards
           url="./src/assets/Images/portfolio.png"

@@ -15,7 +15,7 @@ const Home = () => {
         </p>
         <div className="flex mt-11">
           <a href="mailto:rohitrsn055@gmail.com">
-            <button className="flex items-center justify-around w-32 font-body font-bold text-xs bg-[#D3E97A] hover:bg-[#191919] hover:text-white text-black rounded-3xl h-9  ps-2">
+            <button className="flex items-center justify-around w-32 font-body font-bold text-xs bg-[#d3e97a] hover:bg-[#191919] hover:text-white text-black rounded-3xl h-9  ps-2">
               CONTACT ME
               <img
                 className="w-6 ml-1 rounded-3xl"

@@ -34,7 +34,7 @@ const Form = () => {
         </label>
         <br />
         <input
-          className="bg-[#1A1A1A] w-[300px] rounded-md mb-3"
+          className="bg-[#1A1A1A] w-[300px] rounded-md mb-3 h-7"
           type="text"
           id="name"
           name="from_name"
@@ -46,7 +46,7 @@ const Form = () => {
         </label>
         <br />
         <input
-          className="bg-[#1A1A1A] w-[300px] rounded-md mb-3"
+          className="bg-[#1A1A1A] w-[300px] rounded-md mb-3 h-7"
           type="text"
           id="email"
           name="email"
@@ -58,7 +58,7 @@ const Form = () => {
         </label>
         <br />
         <input
-          className="bg-[#1A1A1A] w-[300px] rounded-md mb-3"
+          className="bg-[#1A1A1A] w-[300px] rounded-md mb-3 h-7"
           type="text"
           id="subject"
           name="subject"
@@ -82,7 +82,11 @@ const Form = () => {
             SEND
           </button>
         ) : (
-          <span><p className="text-[Body] text-sm tracking-wider">YAY! Recieved your message.😉</p></span>
+          <span>
+            <p className="text-[Body] text-sm tracking-wider">
+              YAY! Recieved your message.😉
+            </p>
+          </span>
         )}
       </form>
     </div>
