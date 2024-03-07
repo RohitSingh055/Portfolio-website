@@ -7,10 +7,12 @@ const Certifications = () => {
 
   const handleCardClick = (imageUrl) => {
     setSelectedImageUrl(imageUrl);
+    document.body.style.overflow = "hidden";
   };
 
   const handleCloseModal = () => {
     setSelectedImageUrl(null);
+    document.body.style.overflow = "auto";
   };
 
   return (
@@ -21,7 +23,7 @@ const Certifications = () => {
       </div>
       <div className="right grid grid-cols-2 gap-10 w-[650px] mt-14">
         <Card_certificate
-          name="Machine Learning"
+          name="Machine Learning With Python"
           url="./src/assets/Images/IBM_logo.svg"
           by="IBM"
           onClick={() =>

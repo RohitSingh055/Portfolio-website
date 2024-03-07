@@ -3,7 +3,7 @@ import Cards from "./Cards";
 
 const Project = () => {
   return (
-    <div className="border-t border-[#484848]">
+    <div id="work" className="border-t border-[#484848]">
       <div className="mt-10 font-[Heading] text-5xl">FEATURED PROJECTS</div>
       <div className="font-[Body] text-sm">
         <p>
@@ -17,6 +17,7 @@ const Project = () => {
           tech={["ReactJS", "TailwindCSS"]}
           capsule="ReactJS"
           wantLive={true}
+          github="https://github.com/RohitSingh055/Portfolio-website"
         />
 
         <Cards
@@ -26,6 +27,7 @@ const Project = () => {
           tech={["Python", "Data Mining", "Machine Learning"]}
           capsule="Machine Learning"
           wantLive={false}
+          github="https://github.com/RohitSingh055/Campus_Placement-Prediction"
         />
       </div>
     </div>

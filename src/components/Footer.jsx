@@ -4,17 +4,31 @@ import Icons from "./Icons";
 
 const Footer = () => {
   return (
-    <footer className="border-t border-[#484848] flex ">
+    <footer id="contact" className="border-t border-[#484848] flex ">
       <div className="h-[400px] flex flex-col justify-between w-[45vw] mt-5">
         <div>
           <p className="font-[Heading] text-4xl">Let's Connect</p>
 
           <p className="font-[Body] text-sm mt-7">
-            Say hello at rohitrsn055@gmail.com
+            Say hello at{" "}
+            <a
+              className="border-b-2 border-[#D3E97A]"
+              href="mailto:rohitrsn055@gmail.com"
+              // onclick="window.location.href = 'mailto:rohitrsn055@gmail.com'; return false;"
+            >
+              rohitrsn055@gmail.com
+            </a>
           </p>
 
           <p className="font-[Body] text-sm mt-3">
-            For more info, here's my resume
+            For more info, here's my{" "}
+            <a
+              className="border-b-2 border-[#D3E97A]"
+              href="./src/assets/Resume/resume.pdf"
+              download="Rohit-resume"
+            >
+              resume
+            </a>
           </p>
 
           <Icons />

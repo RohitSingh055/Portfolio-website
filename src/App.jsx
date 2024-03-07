@@ -11,11 +11,19 @@ function App() {
     <>
       <Navbar />
       <main className="w-4/5 mx-auto">
-        <Home />
-        <Project />
-        <Capabilities />
+        <div id="home">
+          <Home />
+        </div>
+        <div id="work">
+          <Project />
+        </div>
+        <div id="capabilities">
+          <Capabilities />
+        </div>
         <Certifications />
-        <Footer />
+        <div id="contact">
+          <Footer />
+        </div>
       </main>
     </>
   );

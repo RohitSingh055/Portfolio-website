@@ -1,4 +1,3 @@
-// Modal.jsx
 import React, { useRef } from "react";
 
 const Modal = ({ imageUrl, onClose }) => {
@@ -18,18 +17,21 @@ const Modal = ({ imageUrl, onClose }) => {
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-50 z-50">
-      <div ref={modalRef} className="bg-white rounded-lg p-4">
+    <div className="fixed top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-50 z-50 backdrop-blur-sm">
+      <div
+        ref={modalRef}
+        className=" rounded-lg flex flex-col p-4 w-1/2 bg-gray-600"
+      >
         <img
           src={imageUrl}
           alt="Certificate"
-          className="w-full h-96 object-contain"
+          className="mx-auto border-2 border-gray-500 h-96 "
         />
         <button
           onClick={onClose}
-          className="bg-black py-2 px-4 rounded-md mt-4"
+          className="bg-[#d5ff2f] text-black font-[Heading1] font-extrabold py-2 px-4 mx-auto rounded-md mt-4"
         >
-          Close
+          CLOSE
         </button>
       </div>
     </div>
