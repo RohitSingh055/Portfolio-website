@@ -15,8 +15,8 @@ const Home = () => {
         </p>
         <div className="flex mt-11">
           <a href="mailto:rohitrsn055@gmail.com">
-            <button className="flex items-center justify-around w-32 font-body font-bold text-xs bg-[#d3e97a] hover:bg-[#191919] hover:text-white text-black rounded-3xl h-9  ps-2">
-              CONTACT ME
+            <button className="flex items-center transition duration-300 hover:scale-110 justify-around w-32 font-body font-bold text-xs bg-[#d3e97a] hover:bg-[#191919] hover:text-white text-black rounded-3xl h-9  ps-2">
+              REACH OUT
               <img
                 className="w-6 ml-1 rounded-3xl"
                 src="./src/assets/Images/button_arrow.svg"
@@ -27,7 +27,7 @@ const Home = () => {
           <a href="https://www.linkedin.com/in/rohitsingh05/" target="_blank">
             <button className="ml-6 rounded-full">
               <img
-                className="w-9 h-9 rounded-full"
+                className="w-9 h-9 rounded-full transition duration-300 hover:scale-125"
                 src="./src/assets/Images/linkedin.svg"
                 alt="LinkedIN"
               />
@@ -36,7 +36,7 @@ const Home = () => {
           <a href="https://github.com/RohitSingh055" target="_blank">
             <button className="ml-6">
               <img
-                className="rounded-full w-9 h-9"
+                className="rounded-full w-9 h-9 transition duration-300 hover:scale-125"
                 src="./src/assets/Images/github.svg"
                 alt="GitHub"
               />
