@@ -4,13 +4,15 @@ import Cards from "./Cards";
 const Project = () => {
   return (
     <div id="work" className="border-t border-[#484848]">
-      <div className="mt-10 font-[Heading] text-5xl">FEATURED PROJECTS</div>
-      <div className="font-[Body] text-sm">
+      <div className="mt-10 font-[Heading] text-5xl lg:text-5xl">
+        FEATURED PROJECTS
+      </div>
+      <div className="font-[Body] lg:text-sm">
         <p>
-          Here are some of the projects that showcase my passion for <br />
-          software development and Machine Learning. <br />
-          <span className="font-[Heading1] text-base border-b-2 border-[#d3e97a]">
-            Good Projects will be added soon :)
+          Here are some of the projects that showcase my passion for software
+          development and Machine Learning. <br />
+          <span className="font-[Heading1] lg:text-base border-b-2 border-[#d3e97a]">
+            Currently working on new projects :)
           </span>
         </p>
         <Cards

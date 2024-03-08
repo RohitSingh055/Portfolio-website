@@ -28,62 +28,59 @@ const Form = () => {
 
   return (
     <div>
-      <form ref={form} onSubmit={sendEmail}>
-        <label className="text-sm font-[Body]" htmlFor="name">
+      <form
+        className="flex flex-col lg:items-center max-lg:gap-1"
+        ref={form}
+        onSubmit={sendEmail}
+      >
+        <label className="text-sm lg:w-10/12 font-[Body]" htmlFor="name">
           Name
         </label>
-        <br />
         <input
-          className="bg-[#1A1A1A] w-[300px] rounded-md mb-3 h-7"
+          className="bg-[#3e3d3d] lg:w-10/12 max-lg:h-9 rounded-md mb-3 h-7"
           type="text"
           id="name"
           name="from_name"
           required
         />
-        <br />
-        <label className="text-sm font-[Body]" htmlFor="email">
+        <label className="text-sm lg:w-10/12 max-lg:h-9 font-[Body]" htmlFor="email">
           Email
         </label>
-        <br />
         <input
-          className="bg-[#1A1A1A] w-[300px] rounded-md mb-3 h-7"
+          className="bg-[#3e3d3d] lg:w-10/12 max-lg:h-9 rounded-md mb-3 h-7"
           type="text"
           id="email"
           name="email"
           required
         />
-        <br />
-        <label className="text-sm font-[Body]" htmlFor="subject">
+        <label className="text-sm lg:w-10/12 max-lg:h-9 font-[Body]" htmlFor="subject">
           Subject
         </label>
-        <br />
         <input
-          className="bg-[#1A1A1A] w-[300px] rounded-md mb-3 h-7"
+          className="bg-[#3e3d3d] lg:w-10/12 max-lg:h-9 rounded-md mb-3 h-7"
           type="text"
           id="subject"
           name="subject"
           required
         />
-        <br />
-        <label className="text-sm font-[Body]" htmlFor="message">
+        <label className="text-sm lg:w-10/12 font-[Body]" htmlFor="message">
           Message
         </label>
-        <br />
         <textarea
           rows={5}
-          className="bg-[#1A1A1A] w-full rounded-md mb-3"
+          className="bg-[#3e3d3d] lg:w-10/12 rounded-md mb-3"
           type="textarea"
           id="message"
           name="message"
           required
         />
         {!isSubmitted ? (
-          <button className="bg-[#D3E97A] hover:bg-[#191919] hover:text-white hover:border text-black rounded-3xl w-[80px] mt-4 font-[Heading1] p-1">
+          <button className="bg-[#D3E97A] hover:bg-[#191919] text-center hover:text-white hover:border text-black rounded-3xl w-[80px] mt-4 font-[Heading1] p-1">
             SEND
           </button>
         ) : (
           <span>
-            <p className="text-[Body] text-sm tracking-wider">
+            <p className="text-[Body] lg:text-sm tracking-wider">
               YAY! Recieved your message.😉
             </p>
           </span>

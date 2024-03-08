@@ -2,29 +2,29 @@ import React from "react";
 
 const Cards = (props) => {
   return (
-    <div className="card flex gap-24 justify-between mt-24 mb-20">
-      <div className="image bg-[#1A1A1A] w-[350px] relative h-[300px] rounded-lg flex justify-center items-center">
-        <span className="absolute top-0 left-0 m-2 text-xs py-1 px-3 font-[Body] text-center bg-[#0A0A0A] rounded-xl">
+    <div className="card flex max-lg:flex max-lg:flex-col lg:gap-24 max-lg:gap-10 justify-between mt-24 mb-20">
+      <div className="image bg-[#1A1A1A] lg:w-2/5 max-lg:h-72 relative rounded-lg flex justify-center items-center">
+        <span className="absolute top-0 left-0 m-2 text-sm py-1 px-3 font-[Body] text-center bg-[#0A0A0A] rounded-xl">
           {props.capsule}
         </span>
         <img
-          className="rounded-lg w-[270px] h-[180px]"
+          className="rounded-lg lg:w-5/6 max-lg:w-5/6 "
           src={props.url}
           alt="Campus placement"
         />
       </div>
-      <div className="about bg-[#0A0A0A] w-[700px] h-[350px]">
-        <p className="title font-[Heading1] text-xl font-medium mb-5">
+      <div className="about bg-[#0A0A0A] lg:w-3/4">
+        <p className="title font-[Heading1] lg:text-2xl max-lg:text-2xl font-medium mb-5">
           {props.title}
         </p>
-        <p className="description font-[Body] text-justify text-sm mb-5">
+        <p className="description font-[Body] text-justify lg:text-sm max-lg:text-base mb-9">
           {props.description}
         </p>
-        <p className="font-[Body] text-xs tracking-widest font-semibold">
+        <p className="font-[Body] lg:text-xs tracking-widest font-semibold">
           TECH STACK
         </p>
-        <div className="mt-2 mb-3 border-b border-[#484848]"></div>
-        <div className="text-sm flex gap-2 mb-8">
+        <div className="mt-2 mb-4 border-b border-[#484848]"></div>
+        <div className="lg:text-sm flex gap-2 mb-8">
           {props.tech.map((tech, index) => (
             <span
               key={index}
@@ -40,7 +40,7 @@ const Cards = (props) => {
         <span className="flex gap-7">
           {/* Github Button */}
           <a href={props.github} target="_blank">
-            <span className="flex items-center h-full group hover:border-b-2 w-fit cursor-pointer">
+            <span className="flex items-center h-full group border-b-2 border-[#0A0A0A] hover:border-white w-fit cursor-pointer">
               <span className="text-xs font-semibold font-[Heading1] tracking-widest text-[#D3E97A] group-hover:text-[#d6ff0b]">
                 SEE ON GITHUB
               </span>
@@ -63,7 +63,7 @@ const Cards = (props) => {
 
           {props.wantLive && (
             <a href={props.live}>
-              <span className="flex items-center group hover:border-b-2 w-fit cursor-pointer">
+              <span className="flex items-center group border-b-2 border-[#0A0A0A] hover:border-white w-fit cursor-pointer">
                 <span
                   className="text-xs text-[#D3E97A] group-hover:text-[#d6ff0b]
             font-semibold font-[Heading1] tracking-widest"

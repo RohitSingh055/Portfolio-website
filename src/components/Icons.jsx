@@ -3,7 +3,7 @@ import React from "react";
 const Icons = () => {
   return (
     <div>
-      <div className="flex mt-14">
+      <div className="flex lg:mt-14 max-lg:mt-7 max-lg:mb-10 max-lg:justify-center max-lg:gap-5">
         <a href="https://www.linkedin.com/in/rohitsingh05/" target="_blank">
           <img
             className="mr-5 size-7 cursor-pointer"

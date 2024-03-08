@@ -20,7 +20,7 @@ const Modal = ({ imageUrl, onClose }) => {
     <div className="fixed top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-50 z-50 backdrop-blur-sm">
       <div
         ref={modalRef}
-        className=" rounded-lg flex flex-col p-4 w-1/2 bg-gray-600"
+        className=" rounded-lg flex flex-col p-4 lg:w-1/2 max-lg:w-full bg-gray-600"
       >
         <img
           src={imageUrl}

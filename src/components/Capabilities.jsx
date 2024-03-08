@@ -3,12 +3,18 @@ import Skills from "./Skills";
 
 const Capabilities = () => {
   return (
-    <div id="capabilities" className="flex justify-start gap-32 mb-12 border-t border-[#484848]">
-      <div className="left  w-[300px] h-[300px] mt-10 font-[Heading] text-5xl ">
+    <div
+      id="capabilities"
+      className="flex max-lg:flex-col justify-start max-lg:gap-10 lg:gap-32 mb-12 border-t border-[#484848]"
+    >
+      <div className="left max-lg:text-5xl lg:w-1/3 mt-10 font-[Heading] lg:text-5xl ">
         MY CAPABILITIES
-        <p className="font-[Body] text-sm">Tech Stack I know</p>
+        <p className="font-[Body] max-lg:text-lg lg:text-sm">
+          Tech Stack I know
+        </p>
       </div>
-      <div className="right grid grid-cols-4 w-[600px] h-[300px] mt-10">
+
+      <div className="right grid max-lg:grid-cols-2 place-items-center max-lg:gap-y-9 lg:grid-cols-4 lg:w-2/3 lg:gap-x-9 lg:gap-y-14 mt-10">
         <Skills name="HTML" url="./src/assets/Images/logo-html.svg" />
         <Skills name="CSS" url="./src/assets/Images/logo-css.svg" />
         <Skills

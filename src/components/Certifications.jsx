@@ -16,14 +16,14 @@ const Certifications = () => {
   };
 
   return (
-    <div className="flex justify-between border-t border-[#484848] mb-14">
-      <div className="left w-[300px] h-[300px] mt-14 font-[Heading] text-5xl">
+    <div className="flex max-lg:flex-col justify-between border-t border-[#484848] mb-14">
+      <div className="left lg:h-72 mt-14 font-[Heading] text-5xl">
         MY CERTIFICATIONS
-        <p className="font-[Body] text-sm">
+        <p className="font-[Body] text-sm max-lg:text-base mt-2">
           Click on the certificates to view them.{" "}
         </p>
       </div>
-      <div className="right grid grid-cols-2 gap-10 w-[650px] mt-14">
+      <div className="right grid lg:grid-cols-2 lg:gap-10 lg:w-2/3 mt-14">
         <Card_certificate
           name="Machine Learning With Python"
           url="./src/assets/Images/IBM_logo.svg"

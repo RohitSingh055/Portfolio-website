@@ -4,46 +4,45 @@ import Icons from "./Icons";
 
 const Footer = () => {
   return (
-    <footer id="contact" className="border-t border-[#484848] flex ">
-      <div className="h-[400px] flex flex-col justify-between w-[40vw] mt-5">
+    <footer
+      id="contact"
+      className="border-t border-[#484848] lg:flex lg:justify-between"
+    >
+      <div className="lg:w-3/5 mb-10 lg:flex lg:flex-col lg:justify-between h-full">
         <div>
-          <p className="font-[Heading] text-4xl">Let's Connect</p>
+          <div className="mt-5 lg:mb-0">
+            <p className="font-[Heading] text-4xl">Let's Connect</p>
 
-          {/* <p className="font-[Body] text-sm mt-7">
-            Say hello at{" "}
-            <a
-              className="border-b-2 border-[#D3E97A] "
-              href="mailto:rohitrsn055@gmail.com"
-            >
-              rohitrsn055@gmail.com
-            </a>
-          </p> */}
-          <p className="font-[Body] text-sm mt-7 text-justify">
-            I'm thrilled you scrolled till here and I'm eagerly looking forward
-            to connecting with you. Let's explore potential opportunities for
-            collaboration or simply engage in a friendly chat. Let's make
-            something amazing together!
-          </p>
+            <p className="font-[Body] text-sm mt-7 text-justify">
+              I'm thrilled you scrolled till here and I'm eagerly looking
+              forward to connecting with you. Let's explore potential
+              opportunities for collaboration or simply engage in a friendly
+              chat. Let's make something amazing together!
+            </p>
 
-          <p className="font-[Body] text-sm mt-3">
-            For more info, here's my{" "}
-            <a
-              className="border-b-2 border-[#D3E97A]"
-              href="./src/assets/Resume/resume.pdf"
-              download="Rohit-resume"
-            >
-              resume
-            </a>
-          </p>
-
+            <p className="font-[Body] text-sm mt-3">
+              For more info, here's my{" "}
+              <a
+                className="border-b-2 border-[#D3E97A]"
+                href="./src/assets/Resume/resume.pdf"
+                download="Rohit-resume"
+              >
+                resume
+              </a>
+            </p>
+          </div>
           <Icons />
-        </div>
-        <div className="mt-auto mb-4 text-sm font-[Body]">
-          &copy; 2024 Rohit Singh
+          <div className="text-sm font-[Body] mt-28 max-lg:hidden">
+            &copy; 2024 Rohit Singh
+          </div>
         </div>
       </div>
-      <div className="mt-5 mb-14 ml-32 px-24">
+
+      <div className="lg:w-2/5 lg:pl-32 lg:mt-5">
         <Form />
+      </div>
+      <div className="text-sm font-[Body] mb-10 lg:hidden mt-8">
+        &copy; 2024 Rohit Singh
       </div>
     </footer>
   );
