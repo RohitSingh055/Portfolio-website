@@ -33,42 +33,54 @@ const Form = () => {
         ref={form}
         onSubmit={sendEmail}
       >
-        <label className="text-sm lg:w-10/12 font-[Body]" htmlFor="name">
+        <label
+          className="text-sm 2xl:text-lg lg:w-10/12 font-[Body]"
+          htmlFor="name"
+        >
           Name
         </label>
         <input
-          className="bg-[#3e3d3d] lg:w-10/12 max-lg:h-9 rounded-md mb-3 h-7"
+          className="bg-[#3e3d3d] lg:w-10/12 max-lg:h-9 2xl:h-8 rounded-md mb-3 h-7"
           type="text"
           id="name"
           name="from_name"
           required
         />
-        <label className="text-sm lg:w-10/12 max-lg:h-9 font-[Body]" htmlFor="email">
+        <label
+          className="text-sm lg:w-10/12 2xl:text-lg max-lg:h-9  font-[Body]"
+          htmlFor="email"
+        >
           Email
         </label>
         <input
-          className="bg-[#3e3d3d] lg:w-10/12 max-lg:h-9 rounded-md mb-3 h-7"
+          className="bg-[#3e3d3d] lg:w-10/12 max-lg:h-9 2xl:h-8 rounded-md mb-3 h-7"
           type="text"
           id="email"
           name="email"
           required
         />
-        <label className="text-sm lg:w-10/12 max-lg:h-9 font-[Body]" htmlFor="subject">
+        <label
+          className="text-sm lg:w-10/12 2xl:text-lg max-lg:h-9 font-[Body]"
+          htmlFor="subject"
+        >
           Subject
         </label>
         <input
-          className="bg-[#3e3d3d] lg:w-10/12 max-lg:h-9 rounded-md mb-3 h-7"
+          className="bg-[#3e3d3d] lg:w-10/12 max-lg:h-9 2xl:h-8 rounded-md mb-3 h-7"
           type="text"
           id="subject"
           name="subject"
           required
         />
-        <label className="text-sm lg:w-10/12 font-[Body]" htmlFor="message">
+        <label
+          className="text-sm lg:w-10/12 2xl:text-lg font-[Body]"
+          htmlFor="message"
+        >
           Message
         </label>
         <textarea
           rows={5}
-          className="bg-[#3e3d3d] lg:w-10/12 rounded-md mb-3"
+          className="bg-[#3e3d3d] lg:w-10/12 rounded-md mb-3 resize-none"
           type="textarea"
           id="message"
           name="message"

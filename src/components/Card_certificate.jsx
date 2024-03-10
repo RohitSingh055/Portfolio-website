@@ -12,7 +12,7 @@ const Card_certificate = (props) => {
           src={props.url}
           alt={props.name}
         />
-        <div className="flex flex-col text-sm p-2 ">
+        <div className="flex flex-col text-sm p-2 2xl:text-base">
           <span className="">{props.name}</span>
           <span className="">{props.by}</span>
         </div>

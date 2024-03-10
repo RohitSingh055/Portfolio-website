@@ -5,16 +5,16 @@ const Capabilities = () => {
   return (
     <div
       id="capabilities"
-      className="flex max-lg:flex-col justify-start max-lg:gap-10 lg:gap-32 mb-12 border-t border-[#484848]"
+      className="flex max-lg:flex-col justify-start 2xl:mb-32 max-lg:gap-10 lg:gap-32 mb-12 border-t border-[#484848]"
     >
-      <div className="left max-lg:text-5xl lg:w-1/3 mt-10 font-[Heading] lg:text-5xl ">
+      <div className="left max-lg:text-5xl 2xl:text-6xl lg:w-1/3 mt-10 2xl:mt-20 font-[Heading] lg:text-5xl ">
         MY CAPABILITIES
-        <p className="font-[Body] max-lg:text-lg lg:text-sm">
+        <p className="font-[Body] 2xl:text-lg max-lg:text-lg lg:text-sm">
           Tech Stack I know
         </p>
       </div>
 
-      <div className="right grid max-lg:grid-cols-2 place-items-center max-lg:gap-y-9 lg:grid-cols-4 lg:w-2/3 lg:gap-x-9 lg:gap-y-14 mt-10">
+      <div className="right grid max-lg:grid-cols-2 place-items-center md:max-lg:grid-cols-3 max-lg:gap-y-9 lg:grid-cols-4 lg:w-2/3 lg:gap-x-9 lg:gap-y-14 mt-10 2xl:mt-20">
         <Skills name="HTML" url="./src/assets/Images/logo-html.svg" />
         <Skills name="CSS" url="./src/assets/Images/logo-css.svg" />
         <Skills
