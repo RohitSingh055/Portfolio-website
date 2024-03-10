@@ -118,7 +118,7 @@ const Navbar = () => {
                   Contact
                 </li>
               </ScrollLink>
-              <a href="./src/assets/Resume/resume.pdf" download="Rohit-resume">
+              <a href="/assets/Resume/resume.pdf" download="Rohit-resume">
                 <li className="cursor-pointer border border-[#D3E97A] transition duration-200 p-1 font-[Heading1] font-bold px-4 rounded-2xl 2xl:text-[22px] text-black bg-[#D3E97A] hover:bg-[#191919] hover:text-white">
                   Resume
                 </li>
@@ -185,7 +185,7 @@ const Navbar = () => {
                   <li className="mb-10 cursor-pointer">Contact</li>
                 </ScrollLink>
                 <a
-                  href="./src/assets/Resume/resume.pdf"
+                  href="/assets/Resume/resume.pdf"
                   download="Rohit-resume"
                   onClick={() => setShowMenu(false)}
                 >
@@ -195,7 +195,7 @@ const Navbar = () => {
                   Easily navigate through the portfolio.
                 </li>
                 <li className="text-base mt-5 font-light ml-44">
-                  <img src="./src/assets/Images/icon.svg" alt="Logo" />
+                  <img src="/assets/Images/icon.svg" alt="Logo" />
                 </li>
               </>
             )}

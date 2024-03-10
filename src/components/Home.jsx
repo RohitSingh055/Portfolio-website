@@ -22,7 +22,7 @@ const Home = () => {
               REACH OUT
               <img
                 className="lg:h-3/4 max-lg:p-1 max-lg:h-3/4 ml-1 rounded-3xl"
-                src="./src/assets/Images/button_arrow.svg"
+                src="/assets/Images/button_arrow.svg"
                 alt="arrow"
               />
             </button>
@@ -31,7 +31,7 @@ const Home = () => {
             <button className="ml-6 rounded-full">
               <img
                 className="w-9 h-9 2xl:h-11 rounded-full transition duration-300 hover:scale-125"
-                src="./src/assets/Images/linkedin.svg"
+                src="/assets/Images/linkedin.svg"
                 alt="LinkedIN"
               />
             </button>
@@ -40,7 +40,7 @@ const Home = () => {
             <button className="ml-6">
               <img
                 className="rounded-full w-9 h-9 2xl:h-11 transition duration-300 hover:scale-125"
-                src="./src/assets/Images/github.svg"
+                src="/assets/Images/github.svg"
                 alt="GitHub"
               />
             </button>
@@ -50,7 +50,7 @@ const Home = () => {
       <div className="max-lg:flex  max-lg:justify-center lg:text-center">
         <img
           className="bg-[#191919] pb-0 p-5 border w-80 2xl:w-[360px] hover:border-4 rounded-2xl mt-10 "
-          src="./src/assets/Images/profile.png"
+          src="/assets/Images/profile.png"
           alt="Profile Image"
         />
       </div>

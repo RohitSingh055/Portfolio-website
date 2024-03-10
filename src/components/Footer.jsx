@@ -26,7 +26,7 @@ const Footer = () => {
               For more info, here's my{" "}
               <a
                 className="border-b-2 border-[#D3E97A]"
-                href="./src/assets/Resume/resume.pdf"
+                href="/assets/Resume/resume.pdf"
                 download="Rohit-resume"
               >
                 resume

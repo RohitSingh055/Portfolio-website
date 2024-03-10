@@ -23,7 +23,7 @@ const Project = () => {
           development and Machine Learning. <br />
         </p>
         <Cards
-          url="./src/assets/Images/portfolio.png"
+          url="/assets/Images/portfolio.png"
           title="Portfolio Website"
           point1="Built with React and styled with Tailwind CSS."
           point2="Implemented React Modal for intuitive pop-up interactions."
@@ -35,7 +35,7 @@ const Project = () => {
         />
 
         <Cards
-          url="./src/assets/Images/campus_placement.jpg"
+          url="/assets/Images/campus_placement.jpg"
           title="Campus Placement Prediction"
           point1="Used machine learning algorithms like Logistic Regression, Decision Tree, and kNN."
           point2="Used labeled data to train robust classification models."

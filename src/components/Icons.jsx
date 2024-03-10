@@ -7,28 +7,28 @@ const Icons = () => {
         <a href="https://www.linkedin.com/in/rohitsingh05/" target="_blank">
           <img
             className="mr-5 size-7 2xl:size-9 cursor-pointer hover:scale-125"
-            src="./src/assets/Images/linkedin.svg"
+            src="/assets/Images/linkedin.svg"
             alt="LinkedIn"
           />
         </a>
         <a href="https://github.com/RohitSingh055" target="_blank">
           <img
             className="mr-5 size-7 2xl:size-9 cursor-pointer hover:scale-125"
-            src="./src/assets/Images/github.svg"
+            src="/assets/Images/github.svg"
             alt="Github"
           />
         </a>
         <a href="https://twitter.com/ImRoh05" target="_blank">
           <img
             className="mr-5 size-7 2xl:size-9 cursor-pointer hover:scale-125"
-            src="./src/assets/Images/x.svg"
+            src="/assets/Images/x.svg"
             alt="X"
           />
         </a>
         <a href="https://www.instagram.com/rohit.rsn_/" target="_blank">
           <img
             className="mr-5 size-7 2xl:size-9 cursor-pointer hover:scale-125"
-            src="./src/assets/Images/insta.svg"
+            src="/assets/Images/insta.svg"
             alt="Instagram"
           />
         </a>

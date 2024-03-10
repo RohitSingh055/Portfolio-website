@@ -5,19 +5,19 @@
 
 @font-face {
     font-family: "Heading";
-    src: url(./assets/Fonts/BebasNeue-Regular.ttf);
+    src: url(/assets/Fonts/BebasNeue-Regular.ttf);
     format: truetype;
 }
 
 @font-face {
     font-family: "Heading1";
-    src: url(./assets/Fonts/Manrope-Medium.ttf);
+    src: url(/assets/Fonts/Manrope-Medium.ttf);
     format: truetype
 }
 
 @font-face {
     font-family: "Body";
-    src: url(./assets/Fonts/Manrope-Light.ttf);
+    src: url(/assets/Fonts/Manrope-Light.ttf);
     format: truetype;
 }
 
