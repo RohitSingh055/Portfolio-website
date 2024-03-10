@@ -31,6 +31,7 @@ const Project = () => {
           tech={["ReactJS", "TailwindCSS"]}
           capsule="ReactJS"
           wantLive={true}
+          live = "https://www.rohit-singh.dev/"
           github="https://github.com/RohitSingh055/Portfolio-website"
         />
 
