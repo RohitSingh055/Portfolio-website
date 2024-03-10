@@ -1,3 +1,6 @@
 # Personal portfolio Website
 
-### Tech used -> React.js & Tailwind CSS
+## Live Link 
+rohit-singh.dev
+
+#### Tech used -> React.js & Tailwind CSS
